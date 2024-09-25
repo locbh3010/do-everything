@@ -9,9 +9,6 @@ export default defineConfig({
   plugins: [
     ViteAliases({ prefix: '@', useConfig: true, adjustDuplicates: true }),
     vitePluginImp({
-      libList: [
-        { libName: 'lodash', libDirectory: '', camel2DashComponentName: false },
-      ],
       exclude: ['antd'],
     }),
     UnoCSS(),

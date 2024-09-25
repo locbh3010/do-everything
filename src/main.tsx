@@ -2,9 +2,10 @@ import { MantineProvider } from '@mantine/core';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import 'virtual:uno.css';
 import App from './App.tsx';
+
 import './index.css';
+import 'virtual:uno.css';
 
 const queryClient = new QueryClient();
 
