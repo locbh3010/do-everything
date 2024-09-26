@@ -12,9 +12,5 @@
 @import '@mantine/tiptap/styles.css';
 @import '@mantine/dates/styles.css';
 
-// themes
-@import './themes';
-
-button {
-  background-color: theme('colors.default.950');
-}
+@import './themes/';
+@import './components/';
