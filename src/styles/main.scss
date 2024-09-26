@@ -1,3 +1,5 @@
+@import '@unocss/reset/tailwind-compat.css';
+
 @import '@xyflow/react/dist/style.css';
 @import '@mantine/core/styles.css';
 @import '@mantine/charts/styles.css';
@@ -9,3 +11,10 @@
 @import '@mantine/nprogress/styles.css';
 @import '@mantine/tiptap/styles.css';
 @import '@mantine/dates/styles.css';
+
+// themes
+@import './themes';
+
+button {
+  background-color: theme('colors.default.950');
+}

@@ -35,6 +35,12 @@
       ],
       "@uils/*": [
         "src/uils/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@themes/*": [
+        "src/styles/themes/*"
       ]
     }
   }
